@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		7434543B1EC5B5FE00D32E81 /* JGWebCacheUniversal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7434543C1EC5B5FE00D32E81 /* Build configuration list for PBXAggregateTarget "JGWebCacheUniversal" */;
+			buildPhases = (
+				7434543F1EC5B62500D32E81 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = JGWebCacheUniversal;
+			productName = JGWebCacheUniversal;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		7411485C1EC6A71C003BA456 /* JGWebCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7411485B1EC6A71C003BA456 /* JGWebCacheManager.m */; };
+		741148631EC6A7D4003BA456 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 741148621EC6A7D4003BA456 /* NSString+MD5.m */; };
+		741148671EC6C568003BA456 /* JGCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 741148661EC6C568003BA456 /* JGCache.m */; };
+		7411486B1EC6FDBA003BA456 /* JGDataDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 7411486A1EC6FDBA003BA456 /* JGDataDownloader.m */; };
+		7411486E1EC7009F003BA456 /* JGDataDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7411486D1EC7009F003BA456 /* JGDataDownloaderOperation.m */; };
+		741148701EC74A90003BA456 /* JGWebCacheManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7411485A1EC6A71C003BA456 /* JGWebCacheManager.h */; };
+		743454351EC5B59500D32E81 /* JGWebCache.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 743454321EC5B59500D32E81 /* JGWebCache.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7434542D1EC5B59400D32E81 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				741148701EC74A90003BA456 /* JGWebCacheManager.h in CopyFiles */,
+				743454351EC5B59500D32E81 /* JGWebCache.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7411485A1EC6A71C003BA456 /* JGWebCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGWebCacheManager.h; sourceTree = "<group>"; };
+		7411485B1EC6A71C003BA456 /* JGWebCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGWebCacheManager.m; sourceTree = "<group>"; };
+		741148611EC6A7D4003BA456 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+MD5.h"; path = "Categories/NSString+MD5.h"; sourceTree = "<group>"; };
+		741148621EC6A7D4003BA456 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+MD5.m"; path = "Categories/NSString+MD5.m"; sourceTree = "<group>"; };
+		741148651EC6C568003BA456 /* JGCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JGCache.h; path = Cache/JGCache.h; sourceTree = "<group>"; };
+		741148661EC6C568003BA456 /* JGCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JGCache.m; path = Cache/JGCache.m; sourceTree = "<group>"; };
+		741148691EC6FDBA003BA456 /* JGDataDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JGDataDownloader.h; path = JGDataDownloader/JGDataDownloader.h; sourceTree = "<group>"; };
+		7411486A1EC6FDBA003BA456 /* JGDataDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JGDataDownloader.m; path = JGDataDownloader/JGDataDownloader.m; sourceTree = "<group>"; };
+		7411486C1EC7009F003BA456 /* JGDataDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JGDataDownloaderOperation.h; path = JGDataDownloader/JGDataDownloaderOperation.h; sourceTree = "<group>"; };
+		7411486D1EC7009F003BA456 /* JGDataDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JGDataDownloaderOperation.m; path = JGDataDownloader/JGDataDownloaderOperation.m; sourceTree = "<group>"; };
+		7434542F1EC5B59500D32E81 /* libJGWebCache.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJGWebCache.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		743454321EC5B59500D32E81 /* JGWebCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JGWebCache.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7434542C1EC5B59400D32E81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7411485D1EC6A787003BA456 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				741148611EC6A7D4003BA456 /* NSString+MD5.h */,
+				741148621EC6A7D4003BA456 /* NSString+MD5.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		741148641EC6C54E003BA456 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				741148651EC6C568003BA456 /* JGCache.h */,
+				741148661EC6C568003BA456 /* JGCache.m */,
+			);
+			name = Cache;
+			sourceTree = "<group>";
+		};
+		741148681EC6FD9C003BA456 /* DataDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				741148691EC6FDBA003BA456 /* JGDataDownloader.h */,
+				7411486A1EC6FDBA003BA456 /* JGDataDownloader.m */,
+				7411486C1EC7009F003BA456 /* JGDataDownloaderOperation.h */,
+				7411486D1EC7009F003BA456 /* JGDataDownloaderOperation.m */,
+			);
+			name = DataDownloader;
+			sourceTree = "<group>";
+		};
+		743454261EC5B59400D32E81 = {
+			isa = PBXGroup;
+			children = (
+				743454311EC5B59500D32E81 /* JGWebCache */,
+				743454301EC5B59500D32E81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		743454301EC5B59500D32E81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7434542F1EC5B59500D32E81 /* libJGWebCache.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		743454311EC5B59500D32E81 /* JGWebCache */ = {
+			isa = PBXGroup;
+			children = (
+				741148681EC6FD9C003BA456 /* DataDownloader */,
+				741148641EC6C54E003BA456 /* Cache */,
+				7411485D1EC6A787003BA456 /* Categories */,
+				743454321EC5B59500D32E81 /* JGWebCache.h */,
+				7411485A1EC6A71C003BA456 /* JGWebCacheManager.h */,
+				7411485B1EC6A71C003BA456 /* JGWebCacheManager.m */,
+			);
+			path = JGWebCache;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7434542E1EC5B59400D32E81 /* JGWebCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 743454381EC5B59500D32E81 /* Build configuration list for PBXNativeTarget "JGWebCache" */;
+			buildPhases = (
+				7434542B1EC5B59400D32E81 /* Sources */,
+				7434542C1EC5B59400D32E81 /* Frameworks */,
+				7434542D1EC5B59400D32E81 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JGWebCache;
+			productName = JGWebCache;
+			productReference = 7434542F1EC5B59500D32E81 /* libJGWebCache.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		743454271EC5B59400D32E81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Gurnani;
+				TargetAttributes = {
+					7434542E1EC5B59400D32E81 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 85AA5K527D;
+						ProvisioningStyle = Automatic;
+					};
+					7434543B1EC5B5FE00D32E81 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 85AA5K527D;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7434542A1EC5B59400D32E81 /* Build configuration list for PBXProject "JGWebCache" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 743454261EC5B59400D32E81;
+			productRefGroup = 743454301EC5B59500D32E81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7434542E1EC5B59400D32E81 /* JGWebCache */,
+				7434543B1EC5B5FE00D32E81 /* JGWebCacheUniversal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7434543F1EC5B62500D32E81 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# define output folder environment variable\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target JGWebCache ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\nxcodebuild -target JGWebCache -configuration ${CONFIGURATION} -sdk iphonesimulator -arch i386 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 2. Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\"\n\n# Last touch. copy the header files. Just for convenience\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/include\" \"${UNIVERSAL_OUTPUTFOLDER}/\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7434542B1EC5B59400D32E81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741148631EC6A7D4003BA456 /* NSString+MD5.m in Sources */,
+				741148671EC6C568003BA456 /* JGCache.m in Sources */,
+				7411486B1EC6FDBA003BA456 /* JGDataDownloader.m in Sources */,
+				7411485C1EC6A71C003BA456 /* JGWebCacheManager.m in Sources */,
+				7411486E1EC7009F003BA456 /* JGDataDownloaderOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		743454361EC5B59500D32E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		743454371EC5B59500D32E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		743454391EC5B59500D32E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 85AA5K527D;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7434543A1EC5B59500D32E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 85AA5K527D;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7434543D1EC5B5FE00D32E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 85AA5K527D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7434543E1EC5B5FE00D32E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 85AA5K527D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7434542A1EC5B59400D32E81 /* Build configuration list for PBXProject "JGWebCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				743454361EC5B59500D32E81 /* Debug */,
+				743454371EC5B59500D32E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		743454381EC5B59500D32E81 /* Build configuration list for PBXNativeTarget "JGWebCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				743454391EC5B59500D32E81 /* Debug */,
+				7434543A1EC5B59500D32E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7434543C1EC5B5FE00D32E81 /* Build configuration list for PBXAggregateTarget "JGWebCacheUniversal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7434543D1EC5B5FE00D32E81 /* Debug */,
+				7434543E1EC5B5FE00D32E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 743454271EC5B59400D32E81 /* Project object */;
+}
