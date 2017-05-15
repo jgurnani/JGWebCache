@@ -2,7 +2,7 @@
 //  NSString+MD5.m
 //  JGWebCache
 //
-//  Created by GlobalLogic on 13/05/17.
+//  Created by Jaygurnani on 13/05/17.
 //  Copyright © 2017 Gurnani. All rights reserved.
 //
 
